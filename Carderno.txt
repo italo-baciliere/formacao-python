@@ -1,0 +1,43 @@
+Exibir versão do Python
+ - Abra o terminal e execute o comando "python --version"
+
+Local padrão de instalação
+ - C:\Users\italo\AppData\Local\Programs\Python\Python310\Lib\site-packages
+
+
+
+Antes de criarmos um projeto, veremos como trabalhar no console do Python.
+
+>>> print("ola mundo")
+
+>>> help()
+help> print
+tecla "q" para sair da documentação (help)
+CTRL + C ou CTRL + D para sair do console Python.
+
+>>> print("Brasil", "ganhou", 5, "titulos mundiais", sep="-")
+>>> print("Brasil", "ganhou", 5, "titulos mundiais", end="")
+
+>>> type(pais)
+<class 'str'>
+>>> type(quantidade)
+<class 'int'>
+
+>>> dia = 15
+>>> mes = 10
+>>> ano = 2015
+>>> print(dia, mes, ano, sep="/")
+15/10/2015
+
+Python é uma linguagem com tipagem dinâmica.
+
+O Python utiliza por convenção o padrão Snake_Case para nomes de variáveis (ou identificadores). 
+idade_esposa = 20
+perfil_vip = 'Flávio Almeida'
+recibos_em_atraso = 30
+
+
+Pesquisar
+if(__name__ == '__main__'):
+
+Python é uma linguagem interpretado, porém os módulos são compilados!
