@@ -42,6 +42,9 @@ Strings
     >>> palavra = "alura"
     >>> palavra.upper()
     >>> print(palavra) #qual é o resultado?
-    
+
     Strings são imutáveis, são sequências imutáveis!
+
+min()
+    Funciona apenas em listas de mesmo tipo.
 '''
